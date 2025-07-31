@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas-Chorge-Builds</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <textarea name="" id="inputText" placeholder="Paste or type your text here..."></textarea>
+        <div class="buttons">
+            <button onclick="convert('lower')">Lowercase</button>
+            <button onclick="convert('upper')">Uppercase</button>
+            <button onclick="convert('title')">Title Case</button>
+            <button onclick="clearText()">Clear</button>
+        </div>
+        <div class="output" id="outputText"></div>
+        <button class="buttons copy-btn" onclick="copyText()">Copy Output</button>
+    </div>
+</body>
+</html>
